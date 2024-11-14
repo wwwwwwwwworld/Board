@@ -18,9 +18,9 @@ public class Memo extends BaseEntity {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long mno;
-
+    //제목
     private String title;
-
+    //내용
     private String content;
     // 작성자
     private String writer;
