@@ -22,6 +22,6 @@ public class Memo extends BaseEntity {
     private String title;
 
     private String content;
-
+    // 작성자
     private String writer;
 }
